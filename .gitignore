@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/.venv/
+
+# SQLite and uploaded data
+*.db
+*.db-shm
+*.db-wal
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+
+# Sensitive corpus files
+corpus/*
+!corpus/README.md
+
+# Node
+node_modules/
+frontend/dist/
+
+# VS Code and macOS
+.vscode/
+.DS_Store
+
+# Logs
+*.log
