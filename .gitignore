@@ -30,3 +30,5 @@ frontend/dist/
 
 # Logs
 *.log
+
+streamlit_frontend/.env
